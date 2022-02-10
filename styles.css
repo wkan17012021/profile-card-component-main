@@ -1,0 +1,16 @@
+--dkcyan: hsl(185, 75%, 39%);
+--vydkdesatblue: hsl(229, 23%, 23%);
+--dkgrayblue: hsl(227, 10%, 46%);
+--dkgray: hsl(0, 0%, 59%);
+/* - Font size (name and stats): 18px */
+--kumbhSans: "Kumbh Sans", sans-serif;
+/* - Weights: 400, 700 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+main {
+    background: red;
+}
