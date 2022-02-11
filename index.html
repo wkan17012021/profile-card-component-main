@@ -19,33 +19,51 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Frontend Mentor | Profile card component</title>
   </head>
+
   <body>
-    <main>
-      <section class="bubble-bkgnd"></section>
-      <img
-        src="./images/image-victor.jpg"
-        alt="Victor-photo"
-        class="profile-photo"
-      />
-      <section class="victor-details">
-        <h1>Victor Crest</h1>
-        <h2>26</h2>
-        <h3>London</h3>
-      </section>
-      <section class="stats">
-        <div class="followers">
-          <h2>80K</h2>
-          <p>Followers</p>
+    <section class="main">
+      <div class="circles">
+        <img
+          src="./images/bg-pattern-top.svg"
+          alt="circle pattern 1"
+          class="circle-1"
+        />
+        <img
+          src="./images/bg-pattern-bottom.svg"
+          alt="circle pattern 2"
+          class="circle-2"
+        />
+      </div>
+      <div class="card">
+        <div class="card-header"></div>
+        <div class="card-body">
+          <!-- container for img so img doesn't need to be resized -->
+          <div class="image-holder">
+            <img src="./images/image-victor.jpg" alt="Victor's profile photo" />
+          </div>
+          <h1 class="name-age">
+            Victor Crest
+            <span class="age">26</span>
+            <span class="location">London</span>
+          </h1>
         </div>
-        <div class="likes">
-          <h2>803K</h2>
-          <p>Likes</p>
+        <div class="card-footer">
+          <ul class="stats">
+            <li class="followers">
+              <p>80K</p>
+              <p>Followers</p>
+            </li>
+            <li class="likes">
+              <p>803K</p>
+              <p>Likes</p>
+            </li>
+            <li class="photos">
+              <p>1.4K</p>
+              <p>Photos</p>
+            </li>
+          </ul>
         </div>
-        <div class="photos">
-          <h2>1.4K</h2>
-          <p>Photos</p>
-        </div>
-      </section>
-    </main>
+      </div>
+    </section>
   </body>
 </html>
